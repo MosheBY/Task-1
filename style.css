@@ -1,0 +1,27 @@
+body {
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+canvas {
+    border: solid 2px gray;
+    margin-left: 100px;
+}
+
+.div1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 780px) {
+    .div1  {
+        flex-direction: column;
+        padding-top: 20px;
+
+    }
+
+    canvas {
+        margin-top: 50px;
+        margin-left: auto;
+    }
+}
